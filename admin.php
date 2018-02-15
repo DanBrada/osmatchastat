@@ -4,7 +4,7 @@
         <link rel="stylesheet" type="text/css" href="/src/css/admin.css"
     </head>
     <body>
-        <?php if($_GET["heslo"] != "123456"): ?>
+        <?php if($_GET["heslo"] != "enteryourpassword"): ?>
         <form>
             Zadej heslo: <input type="password" name="heslo">
             <input type="submit">
